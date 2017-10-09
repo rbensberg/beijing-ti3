@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>🏓 Wyre Ping Pong</title>
+        <title>Beijing TI3 League</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -107,7 +107,7 @@
         <div class="content">
             
             <div class="header">
-                <h1>🏓 Wyre Ping Pong</h1>
+                <h1>Beijing TI3 League</h1>
                 <button id="add-entry" class="btn is-green">Report Game</button>
             </div>
             
@@ -119,7 +119,7 @@
                         <th></th>
                         <th>Name</th>
                         <th>Total Games</th>
-                        <th>Win Percentage</th>
+                        <th>VP Points</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -128,7 +128,7 @@
                         <td style="width: 40px; text-align: center;"><b>{{index+1}}</b></td>
                         <td>{{player['Name']}}</td>
                         <td>{{player['Matches Count']}}</td>
-                        <td>{{Math.floor(player['Win Percentage'])}}%</td>
+                        <td>{{Math.floor(player['VP Points'])}}%</td>
                         <td class="view-history">📖</td>
                     </tr>
                 </tbody>
