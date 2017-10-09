@@ -1,4 +1,4 @@
-const airtableApiKey = "keyhdUvEUU5IL7Aqs";
+const airtableApiKey = "keyiaxDtyOpwMFXyF";
 
 new Vue({
   el: '#standings',
